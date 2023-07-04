@@ -15,6 +15,11 @@ ext {
 
 repositories {
     mavenCentral()
+
+    maven {
+        name = "skyglass"
+        url = uri("https://github.com/skyglass/movies-online-repo/raw/master/")
+    }
 }
 
 jar {
